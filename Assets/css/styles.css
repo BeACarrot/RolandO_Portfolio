@@ -1,0 +1,42 @@
+/* 
+.color1 {color: #51253b;}
+.color2 {color: #703248;}
+.color3 {color: #a04556;}
+.color4 {color: #df646a;}
+.color5 {color: #ff9b88;} 
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #51253b;
+    
+}
+
+header{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .name{
+    color: #703248;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
